@@ -87,5 +87,5 @@ for epoch in range(epochs):
     optimizer.zero_grad()
 
 # Saving the model & tokenizer
-t5_model.save_pretrained("final-mt5")
+mt5_model.save_pretrained("final-mt5")
 tokenizer.save_pretrained("final-mt5")
